@@ -1,0 +1,37 @@
+body {
+  background-image: linear-gradient(
+    to right top,
+    #b0b4bb,
+    #c4c6cc,
+    #d8d9dc,
+    #ececee,
+    #ffffff
+  );
+}
+#home:hover,
+#About:hover,
+#Projects:hover,
+#Skills:hover,
+#Expirence:hover,
+#Contact:hover {
+  background-color: rgb(212, 209, 209);
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 30px;
+  width: 40%;
+  -webkit-box-shadow: 18px 21px 17px 1px rgba(120, 119, 120, 1);
+  -moz-box-shadow: 18px 21px 17px 1px rgba(120, 119, 120, 1);
+  box-shadow: 18px 21px 17px 1px rgba(120, 119, 120, 1);
+  /* height: 90%; */
+}
+#Aboutme {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+@media (max-width: 553px) {
+  #Aboutme {
+    margin-left: 30px;
+  }
+}
