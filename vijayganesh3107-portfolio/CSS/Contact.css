@@ -1,0 +1,50 @@
+.navbar {
+  padding: 1rem 10rem;
+}
+body {
+  background-image: linear-gradient(
+    to right top,
+    #b0b4bb,
+    #c4c6cc,
+    #d8d9dc,
+    #ececee,
+    #ffffff
+  );
+  height: 100vh;
+}
+
+.nav-item {
+  padding-right: 5rem;
+}
+.nav-link {
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: black;
+}
+#home > a:hover,
+#About > a:hover,
+#Projects > a:hover,
+#Skills > a:hover,
+#Expirence > a:hover,
+#Contact > a:hover {
+  /* background-color: rgb(212, 209, 209);
+    border-radius: 10px; */
+  color: rgb(75, 0, 250);
+}
+
+.Addressrow,
+.Mailrow,
+.Phonerow,
+.appsrow {
+  color: grey;
+}
+.Addressrow:hover,
+.Mailrow:hover,
+.Phonerow:hover,
+.facebook:hover,
+.github:hover,
+.twitter:hover,
+.instagram:hover {
+  color: black;
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+body {
+  background-image: linear-gradient(
+    to right top,
+    #b0b4bb,
+    #c4c6cc,
+    #d8d9dc,
+    #ececee,
+    #ffffff
+  );
+}
+#home > a:hover,
+#About > a:hover,
+#Projects > a:hover,
+#Skills > a:hover,
+#Expirence > a:hover,
+#Contact > a:hover {
+  /* background-color: rgb(212, 209, 209);
+  border-radius: 10px; */
+  color: rgb(75, 0, 250);
+}
+.navbar {
+  padding: 1rem 10rem;
+}
+
+.nav-item {
+  padding-right: 5rem;
+}
+.nav-link {
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: black;
+}
+
+img {
+  border-radius: 30px;
+  width: 40%;
+  -webkit-box-shadow: 18px 21px 17px 1px rgba(120, 119, 120, 1);
+  -moz-box-shadow: 18px 21px 17px 1px rgba(120, 119, 120, 1);
+  box-shadow: 18px 21px 17px 1px rgba(120, 119, 120, 1);
+  /* height: 90%; */
+}
+#Aboutme {
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px;
+}
+@media (max-width: 553px) {
+  #Aboutme {
+    margin-left: 30px;
+  }
+}
